@@ -1,0 +1,18 @@
+Author: Omkar Sarde
+Author: Sharwari Salunkhe
+
+
+Instructions to run
+
+run instances of pod.java 
+as: 
+1)podId 2)destinationIp 3)file       ---->  to send files
+
+example: java pod 1 10.0.2.0 test.txt
+
+//specify 'none' in arguments for normal pods 
+
+else java: 2 none none
+
+The multicastIp, multicastport and udpport are hardcoded in the program.
+
